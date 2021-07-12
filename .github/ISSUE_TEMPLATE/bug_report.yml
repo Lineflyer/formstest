@@ -2,7 +2,6 @@ name: Bug Report
 description: Report a bug or problem with c:geo direclty to our GitHub tracker
 title: "[Bug]: "
 labels: [Bug, Unverified]
-assignees:
 body:
   - type: markdown
     attributes:
