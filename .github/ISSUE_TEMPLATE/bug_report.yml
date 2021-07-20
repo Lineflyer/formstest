@@ -37,12 +37,25 @@ body:
     id: actual_result
     attributes:
       label: Actual result after these steps?
-      description: Describe the actual issue/problem/behavior in detail, which happens after the steps above 
+      description: Describe what actually happens after the steps above (wrong behavior).
       placeholder: "
       Examples:\n
       The app crashes\n
       Its showing the value xy\n
       Nothing happens
+      "
+    validations:
+      required: true
+  - type: textarea
+    id: expected_result
+    attributes:
+      label: Expected result after these steps?
+      description: Describe what you expected to happen instead (correct behavior).
+      placeholder: "
+      Examples:\n
+      The app does not crash\n
+      Its showing the value ab\n
+      The dialog is shown
       "
     validations:
       required: true
