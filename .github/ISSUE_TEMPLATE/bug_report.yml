@@ -64,7 +64,9 @@ body:
     attributes:
       label: Reproducible?
       description: Is the problem reproducible using the steps above?
-      placeholder: 2021.07.15
+      options:
+        - label: Yes
+        - label: No
     validations:
       required: true
   - type: input
