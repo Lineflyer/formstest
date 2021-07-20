@@ -11,21 +11,15 @@ body:
   - type: textarea
     id: Description
     attributes:
-      label: What is wrong?
+      label: Describe your problem?
       description: Provide a summarized description of what the bug/problem is, that you found.
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: textarea
+    id: kind
     attributes:
-      label: c:geo Versions
-      description: What version of our software are you running?
-      options:
-        - Release version
-        - Beta version
-        - Nightly builds
+      label: c:geo Version
+      description: What version of c:geo are you using? You will find it in Menu -> About c:geo (e.g. 2021.01.01)
     validations:
       required: true
   - type: textarea
