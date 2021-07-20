@@ -67,6 +67,7 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+        - label: "Not sure"
     validations:
       required: true
   - type: input
@@ -78,11 +79,13 @@ body:
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: sysinfo
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: System information
+      description: Providing your system information might be helpful in many cases. You will find it in c:geo Menu -> About c:geo -> Swipe right to System
       render: shell
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
