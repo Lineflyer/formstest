@@ -65,8 +65,8 @@ body:
       label: Reproducible?
       description: Is the problem reproducible using the steps above?
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
     validations:
       required: true
   - type: input
