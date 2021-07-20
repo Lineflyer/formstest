@@ -13,7 +13,7 @@ body:
     attributes:
       label: Describe your problem!
       description: Provide a summarized description of what the bug/problem is, that you found.
-      placeholder: c:geo crashes when I click on...
+      placeholder: c:geo crashes when I click on...\n I cannot use the function...
     validations:
       required: true
   - type: textarea
