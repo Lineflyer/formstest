@@ -9,10 +9,18 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: textarea
-    id: Description
+    id: summary
     attributes:
-      label: Describe your problem?
+      label: Describe your problem!
       description: Provide a summarized description of what the bug/problem is, that you found.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: How to reproduce?
+      description: Describe step-by-step how to reproduce the problem.
+      placeholder: 1. Open app, 2. close app
     validations:
       required: true
   - type: textarea
