@@ -14,7 +14,7 @@ body:
       label: Describe your problem!
       description: Provide a summarized description of what the bug/problem is, that you found.
       placeholder: "
-        Examples 
+        Examples: 
         c:geo crashes when I click on...\n
         I cannot use the function...
         "
