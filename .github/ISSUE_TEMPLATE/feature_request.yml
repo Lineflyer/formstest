@@ -22,7 +22,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: description
+    id: solution
     attributes:
       label: What solution would you suggest?
       description: Describe your sugggested solution and the way it should be implemented.
@@ -34,63 +34,16 @@ body:
     validations:
       required: true
   - type: textarea
-    id: actual_result
+    id: alternatives
     attributes:
-      label: Actual result after these steps?
-      description: Describe what actually happens after the steps above (wrong behavior).
-      placeholder: "
-      Examples:\n
-      The app crashes\n
-      Its showing the value xy\n
-      Nothing happens
-      "
-    validations:
-      required: true
-  - type: textarea
-    id: expected_result
-    attributes:
-      label: Expected result after these steps?
-      description: Describe what you expected to happen instead (correct behavior).
-      placeholder: "
-      Examples:\n
-      The app does not crash\n
-      Its showing the value ab\n
-      The dialog is shown
-      "
-    validations:
-      required: true
-  - type: checkboxes
-    id: reproducible
-    attributes:
-      label: Reproducible?
-      description: Is the problem reproducible using the steps above?
-      options:
-        - label: "Yes"
-        - label: "No"
-        - label: "Not sure"
-    validations:
-      required: true
-  - type: input
-    id: version
-    attributes:
-      label: c:geo Version
-      description: What version of c:geo are you using? You will find it in c:geo Menu -> About c:geo.
-      placeholder: 2021.07.15
-    validations:
-      required: true
-  - type: textarea
-    id: sysinfo
-    attributes:
-      label: System information
-      description: (optional) Providing your system information might be helpful in many cases.
-      placeholder: Copy and paste it from c:geo Menu -> About c:geo -> Swipe right to System
-      render: shell
+      label: Is there an alternative?
+      description: (optional) Describe alternative solutions and/or workarounds you have considered already or are already available.
     validations:
       required: false
   - type: textarea
     id: context
     attributes:
       label: Additional Information
-      description: (optional) You may include screenshots, links to logfiles, reference to other similar issues, projects, sources, etc. 
+      description: (optional) Add any other context, screenshots, sketches, process flows, links and other references related to your feature request.
     validations:
       required: false
