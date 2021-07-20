@@ -24,13 +24,12 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: How to reproduce?
-      description: Describe step-by-step how to reproduce the described problem.
+      label: What solution would you suggest?
+      description: Describe your sugggested solution and the way it should be implemented.
       placeholder: "
-      Example:\n
-      1. Click on xyz\n
-      2. Open menu abc\n
-      3. ...
+      Examples:\n
+      There should be a new menu item xyz in menu abc, which performs [...]\n
+      Change the existing function to include [...]
       "
     validations:
       required: true
