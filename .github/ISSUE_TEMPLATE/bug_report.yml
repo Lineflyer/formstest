@@ -32,18 +32,6 @@ body:
       "
     validations:
       required: true
-- type: textarea
-    id: actual_result
-    attributes:
-      label: Actual result after this steps?
-      description: Describe the actual issue/problem/behavior in detail, which happens after the steps above 
-      placeholder: "
-      The di\n
-      2. Open menu abc\n
-      3. ...
-      "
-    validations:
-      required: true
   - type: textarea
     id: kind
     attributes:
