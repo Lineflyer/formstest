@@ -23,8 +23,13 @@ body:
     id: description
     attributes:
       label: How to reproduce?
-      description: Describe step-by-step how to reproduce the problem.
-      placeholder: 1. Open app, 2. close app
+      description: Describe step-by-step how to reproduce the described problem.
+      placeholder: "
+      1. Click on xyz\n
+      2. Open menu abc\n
+      3. ...
+      "
+      
     validations:
       required: true
   - type: textarea
