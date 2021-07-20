@@ -59,15 +59,15 @@ body:
       "
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: reproducible
     attributes:
-      label: Reproducible?
+      label: Reproducible
       description: Is the problem reproducible using the steps above?
       options:
-        - label: "Yes"
-        - label: "No"
-        - label: "Not sure"
+        - Yes
+        - No
+        - Unclear
     validations:
       required: true
       multiple: false
