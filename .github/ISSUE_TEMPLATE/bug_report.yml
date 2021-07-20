@@ -14,7 +14,7 @@ body:
       label: Describe your problem!
       description: Provide a summarized description of what the bug/problem is, that you found.
       placeholder: "
-        Examples: 
+        Examples:\n 
         c:geo crashes when I click on...\n
         I cannot use the function...
         "
@@ -26,9 +26,23 @@ body:
       label: How to reproduce?
       description: Describe step-by-step how to reproduce the described problem.
       placeholder: "
+      Example:\n
       1. Click on xyz\n
       2. Open menu abc\n
       3. ...
+      "
+    validations:
+      required: true
+  - type: textarea
+    id: actual_result
+    attributes:
+      label: Actual result after these steps?
+      description: Describe the actual issue/problem/behavior in detail, which happens after the steps above 
+      placeholder: "
+      Examples:\n
+      The app crashes\n
+      Its showing the value xy\n
+      Nothing happens
       "
     validations:
       required: true
