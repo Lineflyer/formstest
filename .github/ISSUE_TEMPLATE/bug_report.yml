@@ -59,8 +59,8 @@ body:
       "
     validations:
       required: true
-  - type: textarea
-    id: kind
+  - type: input
+    id: version
     attributes:
       label: c:geo Version
       description: What version of c:geo are you using? You will find it in Menu -> About c:geo (e.g. 2021.01.01)
