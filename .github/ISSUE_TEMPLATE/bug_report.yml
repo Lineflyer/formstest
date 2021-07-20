@@ -65,9 +65,9 @@ body:
       label: Reproducible
       description: Is the problem reproducible using the steps above?
       options:
-        - Yes
-        - No
-        - Unclear
+        - "Yes"
+        - "No"
+        - "Unclear"
     validations:
       required: true
       multiple: false
