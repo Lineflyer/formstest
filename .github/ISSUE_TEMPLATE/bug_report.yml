@@ -12,9 +12,9 @@ body:
     id: Description
     attributes:
       label: What is wrong?
-      description: Provide a summarized description of what the bug/problem is, that you found
-      # placeholder: Tell us what you see!
-      # value: "A bug happened!"
+      description: Provide a summarized description of what the bug/problem is, that you found.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
       required: true
   - type: dropdown
