@@ -59,6 +59,14 @@ body:
       "
     validations:
       required: true
+  - type: checkboxes
+    id: reproducible
+    attributes:
+      label: Reproducible?
+      description: Is the problem reproducible using the steps above?
+      placeholder: 2021.07.15
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
@@ -67,7 +75,7 @@ body:
       placeholder: 2021.07.15
     validations:
       required: true
-  - type: textarea
+- type: textarea
     id: logs
     attributes:
       label: Relevant log output
