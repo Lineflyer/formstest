@@ -82,15 +82,14 @@ body:
     id: sysinfo
     attributes:
       label: System information
-      description: Providing your system information might be helpful in many cases. You will find it in c:geo Menu -> About c:geo -> Swipe right to System
+      description: (optional) Providing your system information might be helpful in many cases. You will find it in c:geo Menu -> About c:geo -> Swipe right to System
       render: shell
     validations:
       required: false
-  - type: checkboxes
-    id: terms
+  - type: textarea
+    id: context
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Additional Information
+      description: (optional) You may include screenshots, links to logfiles, reference to other similar issues, projects, sources, etc. 
+    validations:
+      required: false
